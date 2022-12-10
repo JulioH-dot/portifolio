@@ -1,23 +1,26 @@
 <template>
-    <div>
-      <nav-bar />
-    </div>
+  <div>
+    <nav-bar/>
+    <carrossel-component />
+  </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavbarComponents.vue'
+import CarrosselComponent from '@/components/CarrosselComponent.vue'
+import NavBar from '@/components/NavBar.vue'
+
+
+
 export default {
   name: 'App',
-
-  components:{
-    NavBar
+  components: {
+    NavBar,
+    CarrosselComponent
+    
   }
-  
 }
 </script>
 
 <style>
-#app {
- 
-}
+
 </style>
